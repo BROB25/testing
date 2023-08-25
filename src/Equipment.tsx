@@ -1,7 +1,5 @@
-import React from "react";
 import equip1 from "./assets/equip1.jpg";
 import equip2 from "./assets/equip2.jpg";
-import equip3 from "./assets/equip3.jpg";
 import equip4 from "./assets/equip4.jpg";
 import equip5 from "./assets/equip5.jpg";
 

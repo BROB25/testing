@@ -1,5 +1,3 @@
-import React from "react";
-
 import { Button } from "@/components/ui/button";
 import bouncy2 from "./assets/bouncy2.jpg";
 import bouncy3 from "./assets/bouncy3.jpg";

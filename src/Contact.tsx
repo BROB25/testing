@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useEffect } from "react";
 import { animateElements, checkSlide } from "./animations.js";
 
 const Contact = () => {
