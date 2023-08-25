@@ -7,7 +7,6 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { Link } from "react-router-dom";
 import { BiSolidChevronDown } from "react-icons/bi";
 
 const Nav = () => {
