@@ -20,7 +20,7 @@ const Nav = () => {
 						<button className="p-2">
 							<GiHamburgerMenu
 								size={28}
-								className="fixed top-0 z-10 mt-2 text-black font-bold"
+								className="fixed top-0 z-10 mt-2 text-white font-bold"
 							/>
 						</button>
 					</SheetTrigger>
