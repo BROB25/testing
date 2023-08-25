@@ -7,7 +7,7 @@ const Equipment = () => {
 	return (
 		<section
 			id="equipment"
-			className="pt-80 md:pt-0 pb-8 md:pb-44 md:mb-0 mb-60"
+			className="pt-36 md:pt-0 pb-8 md:pb-44 md:mb-0 mb-60"
 		>
 			<div className="h-[500px] bg-neutral-900 mx-auto lg:my-20 lg:pt-16 px-4 grid lg:grid-cols-6 gap-8">
 				<div className="lg:top-20 relative col-span-3 md:col-span-2">
