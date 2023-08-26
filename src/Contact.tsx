@@ -12,7 +12,7 @@ const Contact = () => {
 	}, []);
 
 	return (
-		<section id="contact" className="mx-auto pb-12">
+		<section id="contact" className="mx-auto pt-16 pb-12">
 			<h2 className="flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right">
 				Contact Me!
 			</h2>

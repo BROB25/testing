@@ -5,12 +5,6 @@ import game4 from "./assets/game4.jpg";
 import game6 from "./assets/game6.jpg";
 import game7 from "./assets/game7.jpg";
 import game8 from "./assets/game8.jpg";
-
-import {
-	HoverCard,
-	HoverCardContent,
-	HoverCardTrigger,
-} from "@/components/ui/hover-card";
 import { BiSolidChevronDown, BiChevronRight } from "react-icons/bi";
 
 export function ButtonIcon() {
@@ -23,10 +17,10 @@ export function ButtonIcon() {
 
 const Games = () => {
 	return (
-		<section id="games" className="md:mb-0 md:pb-0 mb-16 pb-16">
-			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4">
+		<section id="games" className="">
+			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 ">
 				{/* Left Side */}
-				<div className="grid grid-cols-2 lg:grid-cols-3 grid-rows-7 h-[80vh] order-2">
+				<div className="grid grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
 					<img
 						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
 						src={game2}
@@ -60,8 +54,8 @@ const Games = () => {
 				</div>
 				{/* Right Side */}
 				<div className="px-4 lg:px-6 order-1">
-					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-800 text-center">
-						Full Service Bouncy Rentals
+					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-800 text-center py-4">
+						Game Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -78,31 +72,12 @@ const Games = () => {
 					</p>
 					<div className="flex py-8">
 						<div>
-							<HoverCard>
-								<HoverCardTrigger asChild>
-									<Button
-										variant="outline"
-										className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
-									>
-										Pricing <BiSolidChevronDown size={23} className="pl-2" />
-									</Button>
-								</HoverCardTrigger>
-								<HoverCardContent className="w-80">
-									<div className="flex justify-between space-x-4">
-										<div className="space-y-1">
-											<h4 className="text-sm font-semibold">@nextjs</h4>
-											<p className="text-sm">
-												The React Framework – created and maintained by @vercel.
-											</p>
-											<div className="flex items-center pt-2">
-												<span className="text-xs text-muted-foreground">
-													Joined December 2021
-												</span>
-											</div>
-										</div>
-									</div>
-								</HoverCardContent>
-							</HoverCard>
+							<Button
+								variant="outline"
+								className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
+							>
+								Pricing <BiSolidChevronDown size={23} className="pl-2" />
+							</Button>
 						</div>
 						<div>
 							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
