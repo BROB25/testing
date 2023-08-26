@@ -18,9 +18,9 @@ export function ButtonIcon() {
 const Games = () => {
 	return (
 		<section id="games" className="">
-			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 ">
+			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-96">
 				{/* Left Side */}
-				<div className="grid grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
+				<div className="grid grid-cols-2 md:grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
 					<img
 						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
 						src={game2}
