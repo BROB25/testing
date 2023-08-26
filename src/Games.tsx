@@ -18,7 +18,7 @@ export function ButtonIcon() {
 const Games = () => {
 	return (
 		<section id="games" className="">
-			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-48">
+			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-24">
 				{/* Left Side */}
 				<div className="grid grid-cols-2 md:grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
 					<img
