@@ -35,7 +35,7 @@ const Nav = () => {
 								<li className="text-black">Home</li>
 								<li className="relative text-black">
 									<button
-										className="flex items-center"
+										className="flex items-center focus:outline-none"
 										onClick={() => setIsOpen(!isOpen)}
 									>
 										Rentals
