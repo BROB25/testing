@@ -8,8 +8,8 @@ import {
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
 import { BiSolidChevronDown, BiSolidPhone } from "react-icons/bi";
-import insta from "/Users/BROB/Desktop/lol/dzrentals/dist/assets/insta.svg";
-import fb from "/Users/BROB/Desktop/lol/dzrentals/dist/assets/fb.jpeg";
+import insta from "./assets/insta.svg";
+import fb from "./assets/fb.jpeg";
 
 const Nav = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -79,7 +79,7 @@ const Nav = () => {
 										target="_blank"
 										className="hover:scale-110 transition ease-in-out duration-300"
 									>
-										<BiSolidPhone size={24} />
+										<BiSolidPhone size={26} />
 									</a>
 								</div>
 							</ul>
