@@ -57,7 +57,7 @@ const Nav = () => {
 								<li className="text-black">Contact</li>
 								<div className="flex justify-start items-center ">
 									<a
-										href="https://www.instagram.com/off.brand.drake/"
+										href="https://www.instagram.com/djangles_7/"
 										target="_blank"
 										className="mr-2 hover:scale-110 transition ease-in-out duration-300"
 									>
@@ -68,15 +68,14 @@ const Nav = () => {
 										/>
 									</a>
 									<a
-										href="https://www.instagram.com/off.brand.drake/"
+										href="https://www.facebook.com/profile.php?id=100047963445698"
 										target="_blank"
 										className="mr-2 hover:scale-110 transition ease-in-out duration-300"
 									>
 										<img src={fb} className="w-6 h-6 cursor-pointer" alt="" />
 									</a>
 									<a
-										href="https://www.instagram.com/off.brand.drake/"
-										target="_blank"
+										href="tel:6128594412"
 										className="hover:scale-110 transition ease-in-out duration-300"
 									>
 										<BiSolidPhone size={26} />
