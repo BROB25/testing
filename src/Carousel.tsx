@@ -27,7 +27,7 @@ export default function Carousel() {
 			<div className="grid grid-cols-1 items-center">
 				<div className="flex justify-center py-4">
 					<h2 className="text-lg sm:text-xl whitespace-nowrap font-extrabold text-black p-4 shadow-lg shadow-gray-900 rounded-full text-center w-[300px] ">
-						Affordable Bouncy Rentals
+						Bouncy Rentals
 					</h2>
 				</div>
 				<div className="flex justify-center py-4">

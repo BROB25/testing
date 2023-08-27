@@ -49,7 +49,7 @@ const Bouncy = () => {
 				{/* Right Side */}
 				<div className="px-4 order-1 lg:order-2">
 					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-800 text-center py-4">
-						Full Service Bouncy Rentals
+						Affordable Bouncy Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
