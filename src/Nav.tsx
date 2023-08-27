@@ -49,7 +49,7 @@ const Nav = () => {
 											<a href="/rentals/games">Games</a>
 										</li>
 										<li className="p-2">
-											<a href="/rentals/equipment">Equipment</a>
+											<a href="/rentals/equipment">Equipment lol</a>
 										</li>
 									</ul>
 								</li>
