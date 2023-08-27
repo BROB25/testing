@@ -13,9 +13,9 @@ const Contact = () => {
 
 	return (
 		<section id="contact" className="mx-auto pt-16 pb-12">
-			<h2 className="flex justify-center text-3xl sm:text-4xl font-bold text-gray-400 mt-12 mb-4 slide-right">
+			<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold text-center shadow-slate-800 mt-6 md:mt-0 py-4 slide-right">
 				Contact Me!
-			</h2>
+			</h3>
 			<div className="grid grid-cols-12 justify-center">
 				<div className="col-span-12 md:col-start-3 md:col-span-8 px-4">
 					<form

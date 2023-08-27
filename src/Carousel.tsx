@@ -23,7 +23,7 @@ export default function Carousel() {
 	};
 
 	const slideItems = [
-		<div className="bg-blue-600 h-[500px] md:h-[550px] w-full shrink-0 border-2 border-gray-800">
+		<div className="bg-blue-600 h-[400px] md:h-[450px] w-full shrink-0 border-2 border-gray-800">
 			<div className="grid grid-cols-1 items-center">
 				<div className="flex justify-center py-4">
 					<h2 className="text-lg sm:text-xl whitespace-nowrap font-extrabold text-black p-4 shadow-lg shadow-gray-900 rounded-full text-center w-[300px] ">
@@ -40,11 +40,11 @@ export default function Carousel() {
 			</div>
 		</div>,
 
-		<div className="bg-red-600 h-[500px] md:h-[550px] w-screen flex-shrink-0 border-2 border-gray-800">
+		<div className="bg-red-600 h-[400px] md:h-[450px] w-screen flex-shrink-0 border-2 border-gray-800">
 			<div className="grid grid-cols-1 items-center">
 				<div className="flex justify-center py-4">
 					<h2 className="text-lg sm:text-xl whitespace-nowrap font-extrabold text-black p-4 shadow-lg shadow-gray-900 rounded-full text-center w-[300px] ">
-						Affordable Bouncy Rentals
+						Game Rentals
 					</h2>
 				</div>
 				<div className="flex justify-center py-4">
@@ -57,11 +57,11 @@ export default function Carousel() {
 			</div>
 		</div>,
 
-		<div className="bg-yellow-500 h-[500px] md:h-[550px] w-screen flex-shrink-0 border-2 border-gray-800">
+		<div className="bg-yellow-500 h-[400px] md:h-[450px] w-screen flex-shrink-0 border-2 border-gray-800">
 			<div className="grid grid-cols-1 items-center">
 				<div className="flex justify-center py-4">
 					<h2 className="text-lg sm:text-xl whitespace-nowrap font-extrabold text-black p-4 shadow-lg shadow-gray-900 rounded-full text-center w-[300px] ">
-						Affordable Bouncy Rentals
+						Equipment Rentals
 					</h2>
 				</div>
 				<div className="flex justify-center py-4">
@@ -94,7 +94,7 @@ export default function Carousel() {
 				</button>
 			</div>
 			<div className="absolute inset-0 flex justify-center items-center top-80 md:top-96">
-				<InfoButton className="" />
+				{/* <InfoButton className="" /> */}
 			</div>
 		</div>
 	);

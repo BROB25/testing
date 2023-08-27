@@ -7,7 +7,9 @@ import {
 	SheetTrigger,
 } from "@/components/ui/sheet";
 import { GiHamburgerMenu } from "react-icons/gi";
-import { BiSolidChevronDown } from "react-icons/bi";
+import { BiSolidChevronDown, BiSolidPhone } from "react-icons/bi";
+import insta from "/Users/BROB/Desktop/lol/dzrentals/dist/assets/insta.svg";
+import fb from "/Users/BROB/Desktop/lol/dzrentals/dist/assets/fb.jpeg";
 
 const Nav = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -53,6 +55,33 @@ const Nav = () => {
 								</li>
 								<li className="text-black">About</li>
 								<li className="text-black">Contact</li>
+								<div className="flex justify-start items-center ">
+									<a
+										href="https://www.instagram.com/off.brand.drake/"
+										target="_blank"
+										className="mr-2 hover:scale-110 transition ease-in-out duration-300"
+									>
+										<img
+											src={insta}
+											className="w-8 h-8 cursor-pointer"
+											alt=""
+										/>
+									</a>
+									<a
+										href="https://www.instagram.com/off.brand.drake/"
+										target="_blank"
+										className="mr-2 hover:scale-110 transition ease-in-out duration-300"
+									>
+										<img src={fb} className="w-6 h-6 cursor-pointer" alt="" />
+									</a>
+									<a
+										href="https://www.instagram.com/off.brand.drake/"
+										target="_blank"
+										className="hover:scale-110 transition ease-in-out duration-300"
+									>
+										<BiSolidPhone size={24} />
+									</a>
+								</div>
 							</ul>
 						</SheetHeader>
 					</SheetContent>
