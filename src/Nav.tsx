@@ -59,8 +59,8 @@ const Nav = () => {
 											<BiSolidChevronDown />
 										</button>
 										{rentalsOpen && (
-											<ul className={`${isOpen ? "block" : "hidden"}  py-2`}>
-												<li className="p-2">
+											<ul className="py-2">
+												<li key="bouncy" className="p-2">
 													<a href="/rentals/bouncy">
 														<Link
 															to="bouncy"
@@ -72,7 +72,7 @@ const Nav = () => {
 														</Link>
 													</a>
 												</li>
-												<li className="p-2">
+												<li key="games" className="p-2">
 													<a href="/rentals/games">
 														<Link
 															to="games"
@@ -84,7 +84,7 @@ const Nav = () => {
 														</Link>
 													</a>
 												</li>
-												<li className="p-2">
+												<li key="equipment" className="p-2">
 													<a href="/rentals/equipment">
 														<Link
 															to="equipment"
