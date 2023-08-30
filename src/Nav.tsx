@@ -13,23 +13,24 @@ import fb from "./assets/fb.jpeg";
 import { Link } from "react-scroll";
 
 const Nav = () => {
-	const [isOpen, setIsOpen] = useState(false);
+	const [menuOpen, setMenuOpen] = useState(false);
+	const [rentalsOpen, setRentalsOpen] = useState(false);
 	const closeMenu = () => {
-		setIsOpen(false); // close menu
+		setMenuOpen(false); // close menu
 	};
 	return (
 		<>
 			<div className="relative my-4">
 				<Sheet className="fixed top-0">
 					<SheetTrigger>
-						<button className="p-2" onClick={() => setIsOpen(true)}>
+						<button className="p-2" onClick={() => setMenuOpen(true)}>
 							<GiHamburgerMenu
 								size={28}
 								className="fixed top-0 z-10 mt-2 text-white font-bold"
 							/>
 						</button>
 					</SheetTrigger>
-					{isOpen && (
+					{menuOpen && (
 						<SheetContent>
 							<SheetHeader className="flex items-start text-left">
 								<SheetTitle className="text-2xl font-bold">
@@ -52,51 +53,51 @@ const Nav = () => {
 									<li className="relative text-black">
 										<button
 											className="flex items-center focus:outline-none"
-											onClick={() => setIsOpen(!isOpen)}
+											onClick={() => setRentalsOpen(!rentalsOpen)}
 										>
 											Rentals
 											<BiSolidChevronDown />
 										</button>
-										<ul
-											className={`${isOpen ? "block" : "hidden"} shadow py-2`}
-										>
-											<li className="p-2">
-												<a href="/rentals/bouncy">
-													<Link
-														to="bouncy"
-														smooth={true}
-														duration={500}
-														onClick={closeMenu}
-													>
-														Bouncy Houses
-													</Link>
-												</a>
-											</li>
-											<li className="p-2">
-												<a href="/rentals/games">
-													<Link
-														to="games"
-														smooth={true}
-														duration={500}
-														onClick={closeMenu}
-													>
-														Games
-													</Link>
-												</a>
-											</li>
-											<li className="p-2">
-												<a href="/rentals/equipment">
-													<Link
-														to="equipment"
-														smooth={true}
-														duration={500}
-														onClick={closeMenu}
-													>
-														Equipment
-													</Link>
-												</a>
-											</li>
-										</ul>
+										{rentalsOpen && (
+											<ul className={`${isOpen ? "block" : "hidden"}  py-2`}>
+												<li className="p-2">
+													<a href="/rentals/bouncy">
+														<Link
+															to="bouncy"
+															smooth={true}
+															duration={500}
+															onClick={closeMenu}
+														>
+															Bouncy Houses
+														</Link>
+													</a>
+												</li>
+												<li className="p-2">
+													<a href="/rentals/games">
+														<Link
+															to="games"
+															smooth={true}
+															duration={500}
+															onClick={closeMenu}
+														>
+															Games
+														</Link>
+													</a>
+												</li>
+												<li className="p-2">
+													<a href="/rentals/equipment">
+														<Link
+															to="equipment"
+															smooth={true}
+															duration={500}
+															onClick={closeMenu}
+														>
+															Equipment
+														</Link>
+													</a>
+												</li>
+											</ul>
+										)}
 									</li>
 									{/* <li className="text-black">About</li> */}
 									<li className="text-black">

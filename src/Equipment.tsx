@@ -3,7 +3,8 @@ import equip1 from "./assets/equip1.jpg";
 import equip2 from "./assets/equip2.jpg";
 import equip4 from "./assets/equip4.jpg";
 import equip5 from "./assets/equip5.jpg";
-import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
+import { BiRightArrow, BiLeftArrow, BiSolidChevronDown } from "react-icons/bi";
+import { Button } from "@/components/ui/button";
 
 const slides = [
 	{
@@ -36,25 +37,13 @@ const Equipment = () => {
 	};
 
 	return (
-		<section id="equipment" className="h-[600px] w-full py-8">
-			<div className="h-[full] bg-neutral-900 mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-7 gap-8">
-				{/* Written Content */}
-				<div className="col-span-7 md:col-span-3">
-					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-800 mt-6 md:mt-0 py-4">
-						Equipment Rentals
-					</h3>
-					<p className="pt-4 text-white leading-6 text-start">
-						Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla non
-						eum a error unde pariatur vitae illo inventore eligendi doloribus
-						officia obcaecati laborum in alias repellat natus voluptatum soluta,
-						sed corrupti recusandae iste ut neque aliquid saepe. Accusantium est
-						ab alias. Minima dolorum, temporibus magnam optio quaerat commodi
-						eveniet consequatur.
-					</p>
-				</div>
-
+		<section
+			id="equipment"
+			className="h-screen w-full py-8 lg:pt-8 pt-80 lg:mb-0 mb-96 lg:pb-0 pb-96"
+		>
+			<div className="h-[full] mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-6 gap-8">
 				{/* Image Carousel */}
-				<div className="col-span-7 md:col-span-4 h-[full] px-0 md:px-4 relative">
+				<div className="col-span-6 md:col-span-3 h-[full] px-0 md:px-4 relative order-2 md:order-1">
 					<div className="w-full h-[280px] md:h-[500px] rounded-2xl bg-center bg-cover duration-500 overflow-hidden">
 						{slides.map((slide, index) => (
 							<img
@@ -66,11 +55,46 @@ const Equipment = () => {
 							/>
 						))}
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-5 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-4 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiLeftArrow onClick={prevSlide} size={25} />
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-5 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-4 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiRightArrow onClick={nextSlide} size={25} />
+					</div>
+				</div>
+
+				{/* Written Content */}
+				<div className="col-span-6 md:col-span-3 order-1 md:order-2 px-4">
+					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-800 mt-6 md:mt-0 py-4">
+						Equipment Rentals
+					</h3>
+					<p className="text-white relative leading-2 lg:leading-loose pt-6">
+						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
+						blanditiis nam eveniet consequuntur maxime ad deserunt illo a
+						explicabo, assumenda praesentium placeat enim voluptates possimus
+						voluptatem, commodi sed, excepturi doloremque necessitatibus fuga
+						eos sunt. Quae doloribus facere beatae ut odit tenetur, a quia,
+						maxime nisi, quasi iure at inventore ad tempore aperiam explicabo
+						voluptatum voluptatibus enim ab facilis pariatur suscipit eos
+						dolorum. Omnis laudantium labore ab nesciunt voluptates vero error
+						quia pariatur totam accusamus, deserunt dolore impedit voluptatibus
+						eius vel?
+						<span className="absolute border-b-4 border-yellow-500 w-1/4 left-0 -bottom-2"></span>
+					</p>
+					<div className="flex py-8">
+						<div>
+							<Button
+								variant="outline"
+								className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
+							>
+								Pricing <BiSolidChevronDown size={23} className="pl-2" />
+							</Button>
+						</div>
+						<div>
+							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
+								Book a rental
+							</Button>
+						</div>
 					</div>
 				</div>
 			</div>
