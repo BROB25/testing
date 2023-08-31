@@ -5,6 +5,7 @@ import equip4 from "./assets/equip4.jpg";
 import equip5 from "./assets/equip5.jpg";
 import { BiRightArrow, BiLeftArrow, BiSolidChevronDown } from "react-icons/bi";
 import { Button } from "@/components/ui/button";
+import Menu from "./Menu";
 
 const slides = [
 	{
@@ -39,7 +40,7 @@ const Equipment = () => {
 	return (
 		<section
 			id="equipment"
-			className="h-screen w-full py-8 lg:pt-8 pt-16 lg:mb-0 mb-96 lg:pb-0 pb-96"
+			className="h-screen w-full py-8 lg:pt-8 lg:pb-0 pb-96"
 		>
 			<div className="h-[full] mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-6 gap-8">
 				{/* Image Carousel */}
@@ -82,14 +83,7 @@ const Equipment = () => {
 						<span className="absolute border-b-4 border-yellow-500 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">
-						<div>
-							<Button
-								variant="outline"
-								className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
-							>
-								Pricing <BiSolidChevronDown size={23} className="pl-2" />
-							</Button>
-						</div>
+						<Menu />
 						<div>
 							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
 								Book a rental

@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import bouncy2 from "./assets/bouncy2.jpg";
 import bouncy3 from "./assets/bouncy3.jpg";
@@ -5,6 +6,8 @@ import bouncy4 from "./assets/bouncy4.jpg";
 import bouncy5 from "./assets/bouncy5.jpg";
 import bouncy6 from "./assets/bouncy6.jpg";
 import { BiSolidChevronDown, BiChevronRight } from "react-icons/bi";
+import { Link } from "react-scroll";
+import Menu from "./Menu";
 
 export function ButtonIcon() {
 	return (
@@ -49,7 +52,7 @@ const Bouncy = () => {
 				{/* Right Side */}
 				<div className="px-4 order-1 lg:order-2">
 					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-800 text-center py-4">
-						Affordable Bouncy Rentals
+						Affordable Inflatable Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
@@ -65,18 +68,13 @@ const Bouncy = () => {
 						<span className="absolute border-b-4 border-blue-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">
+						<Menu></Menu>
 						<div>
-							<Button
-								variant="outline"
-								className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
-							>
-								Pricing <BiSolidChevronDown size={23} className="pl-2" />
-							</Button>
-						</div>
-						<div>
-							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
-								Book a rental
-							</Button>
+							<Link to="contact" smooth={true} duration={500}>
+								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
+									Book a rental
+								</Button>
+							</Link>
 						</div>
 					</div>
 				</div>

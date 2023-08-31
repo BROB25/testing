@@ -6,6 +6,7 @@ import game6 from "./assets/game6.jpg";
 import game7 from "./assets/game7.jpg";
 import game8 from "./assets/game8.jpg";
 import { BiSolidChevronDown, BiChevronRight } from "react-icons/bi";
+import Menu from "./Menu";
 
 export function ButtonIcon() {
 	return (
@@ -18,7 +19,7 @@ export function ButtonIcon() {
 const Games = () => {
 	return (
 		<section id="games" className="">
-			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-12">
+			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-4">
 				{/* Left Side */}
 				<div className="grid grid-cols-2 md:grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
 					<img
@@ -71,14 +72,7 @@ const Games = () => {
 						<span className="absolute border-b-4 border-red-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">
-						<div>
-							<Button
-								variant="outline"
-								className="cursor-pointer uppercase text-xs px-4 bg-gray-400 border text-white border-black border-2 font-extrabold"
-							>
-								Pricing <BiSolidChevronDown size={23} className="pl-2" />
-							</Button>
-						</div>
+						<Menu></Menu>
 						<div>
 							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
 								Book a rental
