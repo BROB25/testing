@@ -46,12 +46,12 @@ const Equipment = () => {
 			<div className="h-[full] mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-6 gap-8">
 				{/* Image Carousel */}
 				<div className="col-span-6 md:col-span-3 h-[full] relative order-2 md:order-1">
-					<div className="w-full h-[280px] md:h-[500px] rounded-2xl bg-center bg-cover duration-500 overflow-hidden">
+					<div className="w-full h-[280px] md:h-[500px] bg-center bg-cover duration-500 overflow-hidden">
 						{slides.map((slide, index) => (
 							<img
 								key={index}
 								src={slide.image}
-								className={`object-cover w-full h-full absolute transition-opacity duration-500 ${
+								className={`object-cover rounded-xl w-full h-full absolute transition-opacity duration-500 ${
 									index === currentIndex ? "opacity-100" : "opacity-0"
 								}`}
 							/>

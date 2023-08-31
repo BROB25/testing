@@ -11,6 +11,7 @@ import { BiSolidChevronDown, BiSolidPhone } from "react-icons/bi";
 import insta from "./assets/insta.svg";
 import fb from "./assets/fb.jpeg";
 import { Link } from "react-scroll";
+import { GrMail } from "react-icons/gr";
 
 const Nav = () => {
 	const [menuOpen, setMenuOpen] = useState(false);
@@ -20,7 +21,7 @@ const Nav = () => {
 	};
 	return (
 		<>
-			<div className="relative my-4">
+			<div className="relative my-4 group">
 				<Sheet className="fixed top-0">
 					<SheetTrigger>
 						<button className="p-2" onClick={() => setMenuOpen(true)}>
@@ -40,17 +41,18 @@ const Nav = () => {
 									className="flex flex-col gap-2 cursor-pointer text-2xl h-full font-bold"
 									style={{ lineHeight: "2" }}
 								>
-									<li className="text-black flex-grow">
+									<li className="text-black relative group">
 										<Link
 											to="home"
 											smooth={true}
 											duration={500}
 											onClick={closeMenu}
 										>
-											Home
+											<span>Home</span>
+											<span className="absolute -bottom-1 left-0 w-0 h-1 bg-gray-600 transition-all group-hover:w-1/2"></span>
 										</Link>
 									</li>
-									<li className="relative text-black">
+									<li className="relative text-black relative group">
 										<button
 											className="flex items-center focus:outline-none"
 											onClick={() => setRentalsOpen(!rentalsOpen)}
@@ -100,43 +102,50 @@ const Nav = () => {
 										)}
 									</li>
 									{/* <li className="text-black">About</li> */}
-									<li className="text-black">
+									<li className="text-black relative group">
 										<Link
 											to="contact"
 											smooth={true}
 											duration={500}
 											onClick={closeMenu}
 										>
-											Contact
+											<span>Contact</span>
+											<span className="absolute -bottom-1 left-0 w-0 h-1 bg-gray-600 transition-all group-hover:w-3/4"></span>
 										</Link>
 									</li>
-									<div className="flex justify-start items-center ">
-										<a
-											href="https://www.instagram.com/djangles_7/"
-											target="_blank"
-											className="mr-3 hover:scale-110 transition ease-in-out duration-300"
-										>
-											<img
-												src={insta}
-												className="w-9 h-9 cursor-pointer"
-												alt=""
-											/>
-										</a>
-										<a
-											href="https://www.facebook.com/profile.php?id=100047963445698"
-											target="_blank"
-											className="mr-3 hover:scale-110 transition ease-in-out duration-300"
-										>
-											<img src={fb} className="w-6 h-6 cursor-pointer" alt="" />
-										</a>
-										<a
-											href="tel:6128594412"
-											className="hover:scale-110 transition ease-in-out duration-300"
-										>
-											<BiSolidPhone size={29} />
-										</a>
-									</div>
 								</ul>
+								<div className="flex justify-between w-[180px] items-center">
+									<a
+										href="https://www.instagram.com/djangles_7/"
+										target="_blank"
+										className=" hover:scale-110 transition ease-in-out duration-300"
+									>
+										<img
+											src={insta}
+											className="w-8 h-8 cursor-pointer"
+											alt=""
+										/>
+									</a>
+									<a
+										href="https://www.facebook.com/profile.php?id=100047963445698"
+										target="_blank"
+										className=" hover:scale-110 transition ease-in-out duration-300"
+									>
+										<img src={fb} className="w-6 h-6 cursor-pointer" alt="" />
+									</a>
+									<a
+										href="tel:6128594412"
+										className="hover:scale-110 transition ease-in-out duration-300 "
+									>
+										<BiSolidPhone size={27} color="black" />
+									</a>
+									<a
+										href="tel:6128594412"
+										className="hover:scale-110 transition ease-in-out duration-300"
+									>
+										<GrMail size={26} className="text-zinc-400" />
+									</a>
+								</div>
 							</SheetHeader>
 						</SheetContent>
 					)}
