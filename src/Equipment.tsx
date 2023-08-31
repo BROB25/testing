@@ -57,17 +57,17 @@ const Equipment = () => {
 							/>
 						))}
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-4 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiLeftArrow onClick={prevSlide} size={25} />
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-4 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-2 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiRightArrow onClick={nextSlide} size={25} />
 					</div>
 				</div>
 
 				{/* Written Content */}
 				<div className="col-span-6 md:col-span-3 order-1 md:order-2 px-4">
-					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-800 mt-6 md:mt-0 py-4">
+					<h3 className="text-stone-100 bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4">
 						Equipment Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">

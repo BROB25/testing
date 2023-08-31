@@ -56,7 +56,7 @@ const Games = () => {
 				</div>
 				{/* Right Side */}
 				<div className="px-4 lg:px-6 order-1">
-					<h3 className="text-stone-100 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-800 text-center py-4">
+					<h3 className="text-stone-100 bg-red-600 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4">
 						Game Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">

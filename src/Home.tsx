@@ -11,7 +11,7 @@ const Home = () => {
 				<img src={logo} alt="" />
 				<div className="flex justify-center items-center">
 					<h4 className="text-lg text-red-600 font-extrabold">
-						Bouncies&nbsp; <span className="text-lg text-stone-100">|</span>
+						Inflatables&nbsp; <span className="text-lg text-stone-100">|</span>
 						&nbsp;
 					</h4>
 					<h4 className="text-lg text-blue-600 font-extrabold">
