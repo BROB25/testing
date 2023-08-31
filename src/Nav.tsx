@@ -32,15 +32,15 @@ const Nav = () => {
 					</SheetTrigger>
 					{menuOpen && (
 						<SheetContent>
-							<SheetHeader className="flex items-start text-left">
-								<SheetTitle className="text-2xl font-bold">
+							<SheetHeader className="flex items-center text-center">
+								{/* <SheetTitle className="text-2xl font-bold">
 									DZ Rentals
-								</SheetTitle>
+								</SheetTitle> */}
 								<ul
-									className="flex flex-col gap-2 cursor-pointer text-xl"
+									className="flex flex-col gap-2 cursor-pointer text-2xl h-full font-bold"
 									style={{ lineHeight: "2" }}
 								>
-									<li className="text-black">
+									<li className="text-black flex-grow">
 										<Link
 											to="home"
 											smooth={true}
@@ -114,18 +114,18 @@ const Nav = () => {
 										<a
 											href="https://www.instagram.com/djangles_7/"
 											target="_blank"
-											className="mr-2 hover:scale-110 transition ease-in-out duration-300"
+											className="mr-3 hover:scale-110 transition ease-in-out duration-300"
 										>
 											<img
 												src={insta}
-												className="w-8 h-8 cursor-pointer"
+												className="w-9 h-9 cursor-pointer"
 												alt=""
 											/>
 										</a>
 										<a
 											href="https://www.facebook.com/profile.php?id=100047963445698"
 											target="_blank"
-											className="mr-2 hover:scale-110 transition ease-in-out duration-300"
+											className="mr-3 hover:scale-110 transition ease-in-out duration-300"
 										>
 											<img src={fb} className="w-6 h-6 cursor-pointer" alt="" />
 										</a>
@@ -133,7 +133,7 @@ const Nav = () => {
 											href="tel:6128594412"
 											className="hover:scale-110 transition ease-in-out duration-300"
 										>
-											<BiSolidPhone size={26} />
+											<BiSolidPhone size={29} />
 										</a>
 									</div>
 								</ul>

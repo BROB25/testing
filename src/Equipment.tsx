@@ -45,7 +45,7 @@ const Equipment = () => {
 		>
 			<div className="h-[full] mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-6 gap-8">
 				{/* Image Carousel */}
-				<div className="col-span-6 md:col-span-3 h-[full] px-0 md:px-4 relative order-2 md:order-1">
+				<div className="col-span-6 md:col-span-3 h-[full] relative order-2 md:order-1">
 					<div className="w-full h-[280px] md:h-[500px] rounded-2xl bg-center bg-cover duration-500 overflow-hidden">
 						{slides.map((slide, index) => (
 							<img
@@ -57,10 +57,10 @@ const Equipment = () => {
 							/>
 						))}
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-2 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] left-1 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiLeftArrow onClick={prevSlide} size={25} />
 					</div>
-					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-2 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
+					<div className="absolute top-[50%] -translate-x-0 translate-y-[-50%] right-1 text-2xl rounded-full p-2 bg-black/20 text-white font-extrabold cursor-pointer">
 						<BiRightArrow onClick={nextSlide} size={25} />
 					</div>
 				</div>
