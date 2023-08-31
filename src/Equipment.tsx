@@ -6,6 +6,7 @@ import equip5 from "./assets/equip5.jpg";
 import { BiRightArrow, BiLeftArrow, BiSolidChevronDown } from "react-icons/bi";
 import { Button } from "@/components/ui/button";
 import Menu from "./Menu";
+import { Link } from "react-scroll";
 
 const slides = [
 	{
@@ -85,9 +86,11 @@ const Equipment = () => {
 					<div className="flex py-8">
 						<Menu />
 						<div>
-							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
-								Book a rental
-							</Button>
+							<Link to="contact" smooth={true} duration={500}>
+								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
+									Book a rental
+								</Button>
+							</Link>
 						</div>
 					</div>
 				</div>

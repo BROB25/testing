@@ -7,6 +7,7 @@ import game7 from "./assets/game7.jpg";
 import game8 from "./assets/game8.jpg";
 import { BiSolidChevronDown, BiChevronRight } from "react-icons/bi";
 import Menu from "./Menu";
+import { Link } from "react-scroll";
 
 export function ButtonIcon() {
 	return (
@@ -74,9 +75,11 @@ const Games = () => {
 					<div className="flex py-8">
 						<Menu></Menu>
 						<div>
-							<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
-								Book a rental
-							</Button>
+							<Link to="contact" smooth={true} duration={500}>
+								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
+									Book a rental
+								</Button>
+							</Link>
 						</div>
 					</div>
 				</div>
