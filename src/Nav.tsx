@@ -68,7 +68,7 @@ const Nav = () => {
 															duration={500}
 															onClick={closeMenu}
 														>
-															Bouncy Houses
+															Inflatables
 														</Link>
 													</a>
 												</li>
