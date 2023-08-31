@@ -67,7 +67,7 @@ const Equipment = () => {
 
 				{/* Written Content */}
 				<div className="col-span-6 md:col-span-3 order-1 md:order-2 px-4">
-					<h3 className="text-stone-100 bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4">
+					<h3 className="text-stone-100 rounded-lg bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4">
 						Equipment Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">

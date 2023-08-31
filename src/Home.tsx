@@ -5,7 +5,7 @@ const Home = () => {
 	return (
 		<section
 			id="home"
-			className="h-screen flex justify-center items-center pb-16"
+			className="h-screen flex flex-col justify-center items-center pb-16"
 		>
 			<div>
 				<img src={logo} alt="" />
@@ -20,6 +20,13 @@ const Home = () => {
 					<h4 className="text-lg text-yellow-500 font-extrabold">Equipment</h4>
 				</div>
 			</div>
+			<p className="text-white flex justify-center py-8 px-8 lg:px-56">
+				Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia nisi
+				modi dolor tempora quis veritatis minima, alias atque sit. Inventore,
+				sed quas architecto assumenda dolor dolorum nostrum alias consequuntur
+				ipsam odit, repudiandae modi tempore consequatur tempora harum! Laborum,
+				ab numquam.
+			</p>
 		</section>
 	);
 };

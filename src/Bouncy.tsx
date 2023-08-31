@@ -51,7 +51,7 @@ const Bouncy = () => {
 				</div>
 				{/* Right Side */}
 				<div className="px-4 order-1 lg:order-2">
-					<h3 className="text-stone-100 bg-blue-600 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4">
+					<h3 className="text-stone-100 bg-blue-600 text-2xl lg:text-4xl rounded-lg font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4">
 						Affordable Inflatable Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
