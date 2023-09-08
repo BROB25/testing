@@ -71,16 +71,21 @@ const Equipment = () => {
 						Equipment Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-						blanditiis nam eveniet consequuntur maxime ad deserunt illo a
-						explicabo, assumenda praesentium placeat enim voluptates possimus
-						voluptatem, commodi sed, excepturi doloremque necessitatibus fuga
-						eos sunt. Quae doloribus facere beatae ut odit tenetur, a quia,
-						maxime nisi, quasi iure at inventore ad tempore aperiam explicabo
-						voluptatum voluptatibus enim ab facilis pariatur suscipit eos
-						dolorum. Omnis laudantium labore ab nesciunt voluptates vero error
-						quia pariatur totam accusamus, deserunt dolore impedit voluptatibus
-						eius vel?
+						When it comes to equipment rentals, DZ Rentals has you covered with
+						a wide array of reliable and versatile options. Our selection of
+						chairs and tables is designed to complement any event seamlessly.
+						Our comfortable chairs come in various styles and colors, ensuring
+						the perfect match for your aesthetic preferences. And with an
+						abundant supply, you'll never have to worry about accommodating your
+						guests. Our lightweight tables offer ample space without
+						compromising on mobility, making them ideal for any gathering, from
+						intimate dinners to large-scale celebrations. Need a pristine
+						setting? Don't forget to check out our power wash rental to ensure a
+						spotless presentation. Beyond chairs and tables, we also offer a
+						range of miscellaneous items to meet your event needs. At DZ
+						Rentals, our commitment to excellence shines through in every piece
+						of equipment we provide, guaranteeing your event's success, one
+						rental at a time.
 						<span className="absolute border-b-4 border-yellow-500 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">

@@ -55,16 +55,26 @@ const Bouncy = () => {
 						Affordable Inflatable Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-						blanditiis nam eveniet consequuntur maxime ad deserunt illo a
-						explicabo, assumenda praesentium placeat enim voluptates possimus
-						voluptatem, commodi sed, excepturi doloremque necessitatibus fuga
-						eos sunt. Quae doloribus facere beatae ut odit tenetur, a quia,
-						maxime nisi, quasi iure at inventore ad tempore aperiam explicabo
-						voluptatum voluptatibus enim ab facilis pariatur suscipit eos
-						dolorum. Omnis laudantium labore ab nesciunt voluptates vero error
-						quia pariatur totam accusamus, deserunt dolore impedit voluptatibus
-						eius vel?
+						At DZ Rentals, we understand that choosing the perfect inflatable
+						can make or break your event. That's why we offer a wide range of
+						affordable inflatable rentals to cater to all your party needs. We
+						have you covered with our diverse selection of inflatables. Our
+						inventory includes small, mid-sized, and large inflatables, each
+						designed to add a thrilling dimension to your festivities. Looking
+						to beat the summer heat? Explore our inflatables with water
+						attachments that promise hours of refreshing entertainment. And for
+						the ultimate adventure, don't miss our slip-n-slide attachment,
+						which takes the excitement to a whole new level.
+					</p>
+					<p className="text-white relative leading-2 lg:leading-loose pt-6">
+						Setting up and tearing down these inflatables is a breeze, thanks to
+						our experienced team's quick and efficient service. We understand
+						that your time is precious, and we're dedicated to ensuring a
+						seamless experience from start to finish. Our inflatables are not
+						only a source of boundless fun but also set the perfect tone for any
+						occasion. Whether it's a child's birthday party, a family reunion,
+						or a corporate event, DZ Rentals is your trusted partner for
+						unforgettable memories!
 						<span className="absolute border-b-4 border-blue-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">

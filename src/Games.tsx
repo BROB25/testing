@@ -60,16 +60,21 @@ const Games = () => {
 						Game Rentals
 					</h3>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil
-						blanditiis nam eveniet consequuntur maxime ad deserunt illo a
-						explicabo, assumenda praesentium placeat enim voluptates possimus
-						voluptatem, commodi sed, excepturi doloremque necessitatibus fuga
-						eos sunt. Quae doloribus facere beatae ut odit tenetur, a quia,
-						maxime nisi, quasi iure at inventore ad tempore aperiam explicabo
-						voluptatum voluptatibus enim ab facilis pariatur suscipit eos
-						dolorum. Omnis laudantium labore ab nesciunt voluptates vero error
-						quia pariatur totam accusamus, deserunt dolore impedit voluptatibus
-						eius vel?
+						We're not just about inflatables; we're also your ultimate source
+						for game rentals that will take your event to the next level! We
+						offer a vast selection of games, including classics like Ladder Ball
+						and Cornhole, as well as larger-than-life options like Giant Connect
+						4 and more. These games are in impeccable condition, meticulously
+						maintained, and ready to deliver hours of entertainment. Whether
+						you're planning a cozy gathering with friends or a grand event with
+						a large crowd, our game rentals are designed to cater to all group
+						sizes. They add an exciting, interactive element to any occasion,
+						fostering laughter and friendly competition among your guests. At DZ
+						Rentals, we believe that games are more than just pastimes; they're
+						memory-makers. So, choose from our wide array of options, and let
+						the fun begin! Our professionally maintained game rentals are the
+						perfect addition to your event, ensuring a fantastic experience for
+						everyone involved.
 						<span className="absolute border-b-4 border-red-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8">
