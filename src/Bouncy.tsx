@@ -19,7 +19,7 @@ export function ButtonIcon() {
 
 const Bouncy = () => {
 	return (
-		<section id="bouncy">
+		<section id="bouncy" className="mt-12">
 			<div id="bouncy" className="mx-auto p-2 grid lg:grid-cols-2 gap-4">
 				{/* Left Side */}
 				<div className="grid grid-cols-2 grid-rows-6 h-[80vh] order-2 lg:order-1">

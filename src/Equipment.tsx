@@ -41,7 +41,7 @@ const Equipment = () => {
 	return (
 		<section
 			id="equipment"
-			className="h-screen w-full py-8 lg:pt-8 lg:pb-0 pb-96 mb-24 lg:mb-0"
+			className="h-screen w-full py-8 lg:pt-8 lg:pb-0 pb-96 mb-96 lg:mb-0"
 		>
 			<div className="h-[full] mx-auto px-2 md:px-4 py-4 grid lg:grid-cols-6 gap-8">
 				{/* Image Carousel */}
