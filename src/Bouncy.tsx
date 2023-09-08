@@ -51,9 +51,9 @@ const Bouncy = () => {
 				</div>
 				{/* Right Side */}
 				<div className="px-4 order-1 lg:order-2">
-					<h3 className="text-stone-100 bg-blue-600 text-2xl lg:text-4xl rounded-lg font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4">
+					<h1 className="text-stone-100 bg-blue-600 text-2xl lg:text-4xl rounded-lg font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4 slide-right">
 						Affordable Inflatable Rentals
-					</h3>
+					</h1>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						At DZ Rentals, we understand that choosing the perfect inflatable
 						can make or break your event. That's why we offer a wide range of
@@ -77,7 +77,7 @@ const Bouncy = () => {
 						unforgettable memories!
 						<span className="absolute border-b-4 border-blue-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
-					<div className="flex py-8">
+					<div className="flex py-8 slide-right">
 						<Menu></Menu>
 						<div>
 							<Link to="contact" smooth={true} duration={500}>

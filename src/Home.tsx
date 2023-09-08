@@ -5,11 +5,11 @@ const Home = () => {
 	return (
 		<section
 			id="home"
-			className="h-screen flex flex-col justify-center items-center pb-16 mb-24"
+			className="h-screen flex flex-col justify-center items-center pb-16 mb-12"
 		>
 			<div>
 				<img src={logo} alt="" />
-				<div className="flex justify-center items-center">
+				<div className="flex justify-center items-center slide-down">
 					<h4 className="text-lg text-red-600 font-extrabold">
 						Inflatables&nbsp; <span className="text-lg text-stone-100">|</span>
 						&nbsp;

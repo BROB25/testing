@@ -67,9 +67,9 @@ const Equipment = () => {
 
 				{/* Written Content */}
 				<div className="col-span-6 md:col-span-3 order-1 md:order-2 px-4">
-					<h3 className="text-stone-100 rounded-lg bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4">
+					<h1 className="text-stone-100 rounded-lg bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4 slide-right">
 						Equipment Rentals
-					</h3>
+					</h1>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						When it comes to equipment rentals, DZ Rentals has you covered with
 						a wide array of reliable and versatile options. Our selection of
@@ -88,7 +88,7 @@ const Equipment = () => {
 						rental at a time.
 						<span className="absolute border-b-4 border-yellow-500 w-1/4 left-0 -bottom-2"></span>
 					</p>
-					<div className="flex py-8">
+					<div className="flex py-8 slide-right">
 						<Menu />
 						<div>
 							<Link to="contact" smooth={true} duration={500}>

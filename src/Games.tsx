@@ -56,9 +56,9 @@ const Games = () => {
 				</div>
 				{/* Right Side */}
 				<div className="px-4 lg:px-6 order-1">
-					<h3 className="text-stone-100 rounded-lg bg-red-600 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4">
+					<h1 className="text-stone-100 rounded-lg bg-red-600 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4 slide-left">
 						Game Rentals
-					</h3>
+					</h1>
 					<p className="text-white relative leading-2 lg:leading-loose pt-6">
 						We're not just about inflatables; we're also your ultimate source
 						for game rentals that will take your event to the next level! We
@@ -77,7 +77,7 @@ const Games = () => {
 						everyone involved.
 						<span className="absolute border-b-4 border-red-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
-					<div className="flex py-8">
+					<div className="flex py-8 slide-left">
 						<Menu></Menu>
 						<div>
 							<Link to="contact" smooth={true} duration={500}>
