@@ -80,8 +80,10 @@ const Bouncy = () => {
 					<div className="flex py-8 slide-right">
 						<Menu
 							title="pricing"
-							price="80"
-							attachment="Attachments as low as"
+							statement1="Prices as low as:"
+							price1="80"
+							statement2="Atachments as low as:"
+							price2="20"
 						></Menu>
 						<div>
 							<Link to="contact" smooth={true} duration={500}>
