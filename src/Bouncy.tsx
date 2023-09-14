@@ -78,7 +78,11 @@ const Bouncy = () => {
 						<span className="absolute border-b-4 border-blue-600 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8 slide-right">
-						<Menu></Menu>
+						<Menu
+							title="pricing"
+							price="80"
+							attachment="Attachments as low as"
+						></Menu>
 						<div>
 							<Link to="contact" smooth={true} duration={500}>
 								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">

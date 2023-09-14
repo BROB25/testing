@@ -89,7 +89,7 @@ const Equipment = () => {
 						<span className="absolute border-b-4 border-yellow-500 w-1/4 left-0 -bottom-2"></span>
 					</p>
 					<div className="flex py-8 slide-right">
-						<Menu />
+						<Menu title="pricing" attachment="Prices as low as:" />
 						<div>
 							<Link to="contact" smooth={true} duration={500}>
 								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">

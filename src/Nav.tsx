@@ -140,7 +140,7 @@ const Nav = () => {
 										<BiSolidPhone size={27} color="black" />
 									</a>
 									<a
-										href="tel:6128594412"
+										href="mailto:dzrentals@gmail.com"
 										className="hover:scale-110 transition ease-in-out duration-300"
 									>
 										<GrMail size={26} className="text-zinc-400" />
