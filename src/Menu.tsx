@@ -10,7 +10,7 @@ const Menu = ({ title, statement1, statement2, price1, price2 }) => {
 	};
 
 	return (
-		<div className="relative">
+		<div className="relative z-50">
 			<Button
 				onClick={toggleMenu}
 				variant="outline"
@@ -19,7 +19,7 @@ const Menu = ({ title, statement1, statement2, price1, price2 }) => {
 				{title} <BiSolidChevronDown size={23} className="pl-2" />
 			</Button>
 			{isOpen && (
-				<div className="menu absolute top-full mt-2 w-[300px] h-[200px] p-4 bg-black border border-4 border-gray-400 rounded-xl shadow-lg z-30">
+				<div className="menu absolute bottom-full mt-2 w-[300px] h-[200px] p-4 bg-black border border-4 border-gray-400 rounded-xl shadow-lg z-40">
 					<div className="flex flex-col items-start justify-start">
 						{statement1 && (
 							<div className="mb-2">
