@@ -8,6 +8,25 @@ import bouncy6 from "./assets/bouncy6.jpg";
 import { BiChevronRight } from "react-icons/bi";
 import { Link } from "react-scroll";
 import Menu from "./Menu";
+import Slideshow from "./Slideshow";
+
+const slides = [
+	{
+		image: bouncy2,
+	},
+	{
+		image: bouncy3,
+	},
+	{
+		image: bouncy4,
+	},
+	{
+		image: bouncy5,
+	},
+	{
+		image: bouncy6,
+	},
+];
 
 export function ButtonIcon() {
 	return (
@@ -22,32 +41,8 @@ const Bouncy = () => {
 		<section id="bouncy" className="mt-12">
 			<div id="bouncy" className="mx-auto p-2 grid lg:grid-cols-2 gap-4">
 				{/* Left Side */}
-				<div className="grid grid-cols-2 grid-rows-6 h-[80vh] order-2 lg:order-1">
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={bouncy2}
-						alt=""
-					/>
-					<img
-						className="row-span-2 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={bouncy3}
-						alt=""
-					/>
-					<img
-						className="row-span-2 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={bouncy4}
-						alt=""
-					/>
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={bouncy5}
-						alt=""
-					/>
-					<img
-						className="row-span-2 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={bouncy6}
-						alt=""
-					/>
+				<div className="order-2 lg:order-1">
+					<Slideshow slides={slides} />
 				</div>
 				{/* Right Side */}
 				<div className="px-4 order-1 lg:order-2">
@@ -64,14 +59,12 @@ const Bouncy = () => {
 						to beat the summer heat? Explore our inflatables with water
 						attachments that promise hours of refreshing entertainment. And for
 						the ultimate adventure, don't miss our slip-n-slide attachment,
-						which takes the excitement to a whole new level.
-					</p>
-					<p className="text-white relative leading-2 lg:leading-loose pt-6">
-						Setting up and tearing down these inflatables is a breeze, thanks to
-						our experienced team's quick and efficient service. We understand
-						that your time is precious, and we're dedicated to ensuring a
-						seamless experience from start to finish. Our inflatables are not
-						only a source of boundless fun but also set the perfect tone for any
+						which takes the excitement to a whole new level. Setting up and
+						tearing down these inflatables is a breeze, thanks to our
+						experienced team's quick and efficient service. We understand that
+						your time is precious, and we're dedicated to ensuring a seamless
+						experience from start to finish. Our inflatables are not only a
+						source of boundless fun but also set the perfect tone for any
 						occasion. Whether it's a child's birthday party, a family reunion,
 						or a corporate event, DZ Rentals is your trusted partner for
 						unforgettable memories!

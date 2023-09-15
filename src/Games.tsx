@@ -8,6 +8,28 @@ import game8 from "./assets/game8.jpg";
 import { BiSolidChevronDown, BiChevronRight } from "react-icons/bi";
 import Menu from "./Menu";
 import { Link } from "react-scroll";
+import Slideshow from "./Slideshow";
+
+const slides = [
+	{
+		image: game2,
+	},
+	{
+		image: game3,
+	},
+	{
+		image: game4,
+	},
+	{
+		image: game6,
+	},
+	{
+		image: game7,
+	},
+	{
+		image: game8,
+	},
+];
 
 export function ButtonIcon() {
 	return (
@@ -22,37 +44,8 @@ const Games = () => {
 		<section id="games" className="">
 			<div id="games" className="p-2 grid lg:grid-cols-2 gap-4 md:pb-0 pb-4">
 				{/* Left Side */}
-				<div className="grid grid-cols-2 md:grid-cols-3 h-[80vh] order-2 sm:mb-0 lg:mb-0">
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game2}
-						alt=""
-					/>
-					<img
-						className="row-span-2 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game3}
-						alt=""
-					/>
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game4}
-						alt=""
-					/>
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game8}
-						alt=""
-					/>
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game6}
-						alt=""
-					/>
-					<img
-						className="row-span-3 object-cover w-full h-full p-2 hover:scale-110 transition ease-in-out duration-300"
-						src={game7}
-						alt=""
-					/>
+				<div className="order-2">
+					<Slideshow slides={slides} />
 				</div>
 				{/* Right Side */}
 				<div className="px-4 lg:px-6 order-1">
