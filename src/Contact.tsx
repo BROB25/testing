@@ -20,7 +20,7 @@ const Contact = () => {
 				<div className="col-span-12 md:col-start-3 md:col-span-8 px-4">
 					<form
 						className="slide-left"
-						action="https://formcarry.com/s/kH5_-KjRfa"
+						action="https://formcarry.com/s/xszSQUnV8k"
 						method="POST"
 						encType="multipart/form-data"
 					>
