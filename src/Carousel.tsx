@@ -23,7 +23,7 @@ export default function Carousel() {
 	};
 
 	const slideItems = [
-		<div className="bg-blue-600 h-[400px] md:h-[450px] w-full shrink-0 border-2 border-gray-800">
+		<div className="bg-blue-600 h-[400px] md:h-[450px] w-full shrink-0 border-2 border-gray-800 mt-0 md:mt-16">
 			<div className="grid grid-cols-1 items-center">
 				<div className="flex justify-center py-4">
 					<h2 className="text-lg sm:text-xl whitespace-nowrap font-extrabold text-black p-4 shadow-lg shadow-gray-900 rounded-full text-center w-[300px] ">
