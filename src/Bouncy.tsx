@@ -85,7 +85,7 @@ const Bouncy = () => {
 					<h1 className="text-stone-100 bg-blue-600 text-2xl lg:text-4xl rounded-lg font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4 slide-right">
 						Affordable Inflatable Rentals
 					</h1>
-					<p className="text-white relative leading-2 lg:leading-loose pt-6">
+					<p className="text-white relative leading-2 lg:leading-loose pt-6 slide-down">
 						At DZ Rentals, we understand that choosing the perfect inflatable
 						can make or break your event. That's why we offer a wide range of
 						affordable inflatable rentals to cater to all your party needs. We

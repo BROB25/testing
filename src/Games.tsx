@@ -52,7 +52,7 @@ const Games = () => {
 					<h1 className="text-stone-100 rounded-lg bg-red-600 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg shadow-slate-700 text-center py-4 slide-left">
 						Game Rentals
 					</h1>
-					<p className="text-white relative leading-2 lg:leading-loose pt-6">
+					<p className="text-white relative leading-2 lg:leading-loose pt-6 slide-down">
 						We're not just about inflatables; we're also your ultimate source
 						for game rentals that will take your event to the next level! We
 						offer a vast selection of games, including classics like Ladder Ball

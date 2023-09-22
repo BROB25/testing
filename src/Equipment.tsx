@@ -70,7 +70,7 @@ const Equipment = () => {
 					<h1 className="text-stone-100 rounded-lg bg-yellow-500 text-2xl lg:text-4xl font-bold shadow-lg drop-shadow-lg text-center shadow-slate-700 mt-6 md:mt-0 py-4 slide-right">
 						Equipment Rentals
 					</h1>
-					<p className="text-white relative leading-2 lg:leading-loose pt-6">
+					<p className="text-white relative leading-2 lg:leading-loose pt-6 slide-down">
 						When it comes to equipment rentals, DZ Rentals has you covered with
 						a wide array of reliable and versatile options. Our selection of
 						chairs and tables is designed to complement any event seamlessly.
