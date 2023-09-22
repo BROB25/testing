@@ -20,7 +20,7 @@ const Home = () => {
 					<h4 className="text-lg text-yellow-500 font-extrabold">Equipment</h4>
 				</div>
 			</div>
-			<p className="text-white flex justify-center py-8 px-8 lg:px-56 mb-8">
+			<p className="text-white flex justify-center py-8 px-8 lg:px-56 mb-8 md:mb-24">
 				Welcome to DZ Rentals, the premier destination for all your rental
 				needs. At DZ Rentals, we take pride in being your go-to, family-friendly
 				rental company, offering an exciting array of top-tier themed
