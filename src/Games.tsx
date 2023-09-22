@@ -79,7 +79,7 @@ const Games = () => {
 						<div>
 							<Link to="contact" smooth={true} duration={500}>
 								<Button className="cursor-pointer uppercase text-xs px-4 ml-2 bg-gray-400 border border-black border-2 font-extrabold">
-									Book a rental
+									Request a Quote
 								</Button>
 							</Link>
 						</div>

@@ -5,6 +5,15 @@ import bouncy3 from "./assets/bouncy3.jpg";
 import bouncy4 from "./assets/bouncy4.jpg";
 import bouncy5 from "./assets/bouncy5.jpg";
 import bouncy6 from "./assets/bouncy6.jpg";
+import bouncy7 from "./assets/bouncy7.jpg";
+import bouncy9 from "./assets/bouncy9.jpg";
+import bouncy10 from "./assets/bouncy10.jpg";
+import bouncy11 from "./assets/bouncy11.jpg";
+import bouncy12 from "./assets/bouncy12.jpg";
+import bouncy13 from "./assets/bouncy13.jpg";
+import bouncy14 from "./assets/bouncy14.jpg";
+import bouncy15 from "./assets/bouncy15.jpg";
+import bouncy16 from "./assets/bouncy16.jpg";
 import { BiChevronRight } from "react-icons/bi";
 import { Link } from "react-scroll";
 import Menu from "./Menu";
@@ -25,6 +34,33 @@ const slides = [
 	},
 	{
 		image: bouncy6,
+	},
+	{
+		image: bouncy7,
+	},
+	{
+		image: bouncy9,
+	},
+	{
+		image: bouncy10,
+	},
+	{
+		image: bouncy11,
+	},
+	{
+		image: bouncy12,
+	},
+	{
+		image: bouncy13,
+	},
+	{
+		image: bouncy14,
+	},
+	{
+		image: bouncy15,
+	},
+	{
+		image: bouncy16,
 	},
 ];
 

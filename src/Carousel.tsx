@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { BiRightArrow, BiLeftArrow } from "react-icons/bi";
-import bouncy1 from "./assets/bouncy1.jpg";
+import bouncy8 from "./assets/bouncy8.jpg";
 import { Button } from "@/components/ui/button";
 import games1 from "./assets/games1.jpg";
 import misc1 from "./assets/misc1.jpg";
@@ -32,7 +32,7 @@ export default function Carousel() {
 				</div>
 				<div className="flex justify-center py-4">
 					<img
-						src={bouncy1}
+						src={bouncy8}
 						alt="Bouncy Rental"
 						className="rounded-full border border-4 border-black h-full w-[250px] md:w-[310px] shadow-lg shadow-gray-900"
 					/>
