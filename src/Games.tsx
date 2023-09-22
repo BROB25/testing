@@ -73,7 +73,7 @@ const Games = () => {
 					<div className="flex py-8 slide-left">
 						<Menu
 							title="Pricing"
-							statement1="Prices as low as"
+							statement1="Prices as low as:"
 							price1="15"
 						></Menu>
 						<div>
